@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learning & Habit Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .card {
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .habit {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .habit input {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 Learning & Habit Dashboard</h1>
+
+  <div class="section">
+    <h2>🎯 Resources</h2>
+
+    <div class="card">
+      <h3>DSA</h3>
+      <ul>
+        <li><a href="https://www.geeksforgeeks.org/sde-sheet/" target="_blank">GFG DSA Sheet</a></li>
+        <li><a href="https://leetcode.com/problemset/all/" target="_blank">LeetCode</a></li>
+        <li><a href="https://www.youtube.com/c/NeetCode" target="_blank">NeetCode</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>LLD</h3>
+      <ul>
+        <li><a href="https://refactoring.guru/design-patterns" target="_blank">Design Patterns</a></li>
+        <li><a href="https://www.youtube.com/watch?v=zmj_VoM3cuY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX" target="_blank">LLD by Gaurav Sen</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>HLD</h3>
+      <ul>
+        <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a></li>
+        <li><a href="https://www.youtube.com/c/GauravSen" target="_blank">HLD by Gaurav Sen</a></li>
+        <li><a href="https://www.educative.io/courses/grokking-the-system-design-interview" target="_blank">Grokking System Design</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>English</h3>
+      <ul>
+        <li><a href="https://www.ted.com/talks" target="_blank">TED Talks</a></li>
+        <li><a href="https://www.bbc.co.uk/learningenglish" target="_blank">BBC Learning English</a></li>
+        <li><a href="https://www.grammarly.com/" target="_blank">Grammarly</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Humor & Conversation</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/user/charismaoncommand" target="_blank">Charisma on Command</a></li>
+        <li><a href="https://www.reddit.com/r/AskReddit/" target="_blank">Reddit AskReddit</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>✅ Daily Habit Tracker</h2>
+    <div class="card">
+      <div class="habit"><input type="checkbox" id="gym" /> <label for="gym">Gym</label></div>
+      <div class="habit"><input type="checkbox" id="dsa" /> <label for="dsa">DSA Practice</label></div>
+      <div class="habit"><input type="checkbox" id="lld" /> <label for="lld">LLD Learning</label></div>
+      <div class="habit"><input type="checkbox" id="hld" /> <label for="hld">HLD Learning</label></div>
+      <div class="habit"><input type="checkbox" id="speak" /> <label for="speak">English Speaking</label></div>
+      <div class="habit"><input type="checkbox" id="listen" /> <label for="listen">English Listening</label></div>
+      <div class="habit"><input type="checkbox" id="comedy" /> <label for="comedy">Watch Comedy</label></div>
+      <div class="habit"><input type="checkbox" id="journal" /> <label for="journal">Journal Writing</label></div>
+    </div>
+  </div>
+
+</body>
+</html>
